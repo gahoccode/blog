@@ -5,6 +5,14 @@ All notable changes to the FinTech Insights blog project are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2024-07-19
+
+### Added
+- ✅ **GitHub repository** created at https://github.com/gahoccode/blog
+- ✅ **Version control** initialized with Git
+- ✅ **Initial commit** with all project files
+- ✅ **Repository documentation** updated with correct clone URL
+
 ## [1.0.0] - 2024-07-19
 
 ### Added
