@@ -25,6 +25,14 @@ jobs:
           hugo-version: '0.110.0'
           extended: true
 
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+
+      - name: Download Hugo modules
+        run: hugo mod get
+
       - name: Build
         run: hugo --minify
 
@@ -34,3 +42,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
