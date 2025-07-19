@@ -1,0 +1,6 @@
+# Netlify redirects file
+# Redirect default Netlify subdomain to primary domain
+https://fintech-insights.netlify.app/* https://fintech-insights.com/:splat 301!
+
+# Handle 404 errors
+/* /404.html 404

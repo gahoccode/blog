@@ -5,6 +5,20 @@ All notable changes to the FinTech Insights blog project are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2025-07-19
+
+### Added
+- ✅ **Netlify deployment configuration** with netlify.toml
+- ✅ **Security headers** for enhanced site protection
+- ✅ **Redirect rules** for proper URL handling
+
+### Changed
+- 🔄 **Site baseURL** updated for Netlify compatibility
+- 🔄 **Removed GitHub Pages** deployment in favor of Netlify
+
+### Fixed
+- 🐛 **URL structure** optimized for Netlify hosting
+
 ## [1.0.2] - 2024-07-19
 
 ### Added
