@@ -6,8 +6,9 @@ A modern financial technology blog built with Hugo and the Congo theme, explorin
 
 ### Prerequisites
 
-- Hugo Extended v0.128.0 or later
-- Go 1.20 or later (for Hugo modules)
+- Hugo Extended v0.148.0 or later (matches Netlify deployment)
+- Go 1.24.2 or later (for Hugo modules)
+- Node.js 22 or later (for modern features)
 
 ### Installation
 
@@ -404,12 +405,138 @@ The theme supports various analytics and social media platforms. Configure them 
 
 ## 🚀 Deployment
 
-This site can be deployed to various platforms:
+### Netlify Continuous Deployment (Recommended)
 
-- **Netlify** - Connect your Git repository for automatic deployments
-- **Vercel** - Import your project for instant deployments
+This blog is configured for seamless continuous deployment on Netlify using the official Hugo documentation best practices.
+
+#### 🔧 Pre-configured Setup
+
+The repository includes optimized Netlify configuration:
+
+- **`netlify.toml`** - Build settings and environment variables
+- **`static/_redirects`** - URL redirection rules
+- **`static/_headers`** - Security headers for enhanced protection
+
+#### 📋 Netlify Deployment Steps
+
+##### Step 1: Create Netlify Account
+Sign up at [netlify.com](https://netlify.com) if you don't have an account.
+
+##### Step 2: Import Repository
+1. Log in to Netlify dashboard
+2. Click "Add new site" → "Import an existing project"
+3. Select GitHub as your Git provider
+4. Authorize Netlify to access your GitHub account
+5. Choose the `fintech-blog` repository
+
+##### Step 3: Configure Build Settings
+Netlify will automatically detect the configuration from `netlify.toml`:
+
+```toml
+[build]
+  publish = "public"
+  command = "git config core.quotepath false && hugo --gc --minify"
+
+[build.environment]
+  GO_VERSION = "1.24.2"
+  HUGO_VERSION = "0.148.0"
+  NODE_VERSION = "22"
+  TZ = "UTC"
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
+```
+
+##### Step 4: Deploy Site
+1. Click "Deploy site"
+2. Wait for the initial build (2-3 minutes)
+3. Your site will be live at `https://[random-name].netlify.app`
+
+#### 🔄 Continuous Deployment Workflow
+
+Once configured, deployment is automatic:
+
+1. **Make Changes**: Edit content, configuration, or code
+2. **Commit & Push**: 
+   ```bash
+   git add .
+   git commit -m "Add new blog post about [topic]"
+   git push origin main
+   ```
+3. **Automatic Build**: Netlify detects changes and builds automatically
+4. **Live Update**: Site updates within 1-2 minutes
+
+#### 🔍 Build Process Details
+
+Netlify executes the following optimized build process:
+
+1. **Environment Setup**: Installs Hugo 0.148.0, Go 1.24.2, Node.js 22
+2. **Git Configuration**: Sets `core.quotepath false` for proper character handling
+3. **Module Download**: Downloads Hugo modules and dependencies
+4. **Site Build**: Runs `hugo --gc --minify` for optimized output
+5. **Deployment**: Publishes the `public/` directory to Netlify's global CDN
+
+#### 🛡️ Security & Performance Features
+
+**Security Headers** (configured in `static/_headers`):
+- `X-Frame-Options: DENY`
+- `X-XSS-Protection: 1; mode=block`
+- `X-Content-Type-Options: nosniff`
+- `Referrer-Policy: strict-origin-when-cross-origin`
+- `Content-Security-Policy` with strict rules
+- `Strict-Transport-Security` for HTTPS enforcement
+
+**Performance Optimizations**:
+- Automatic minification with `--minify`
+- Garbage collection with `--gc`
+- Global CDN distribution
+- Automatic image optimization
+- Gzip compression
+
+#### 🔧 Advanced Configuration
+
+**Deploy Contexts** (automatically handled):
+- **Production**: `main` branch → Live site
+- **Deploy Previews**: Pull requests → Preview URLs
+- **Branch Deploys**: Feature branches → Branch-specific URLs
+
+**Custom Domain Setup**:
+1. Go to Netlify dashboard → Site settings → Domain management
+2. Add custom domain
+3. Configure DNS records as instructed
+4. SSL certificate is automatically provisioned
+
+#### 🚨 Troubleshooting
+
+**Build Failures**:
+1. Check Netlify deploy logs in dashboard
+2. Verify Hugo modules: `hugo mod get -u`
+3. Test local build: `hugo --gc --minify`
+4. Ensure `baseURL = "/"` in `config/_default/hugo.toml`
+
+**Common Issues**:
+- **Module errors**: Run `hugo mod tidy` locally and commit
+- **Build timeouts**: Check for infinite loops in templates
+- **Missing content**: Verify file paths and front matter syntax
+- **Asset loading**: Ensure relative URLs in templates
+
+#### 📊 Deployment Status
+
+- ✅ **Netlify Configuration**: Optimized with official Hugo best practices
+- ✅ **Environment Variables**: Hugo 0.148.0, Go 1.24.2, Node.js 22
+- ✅ **Build Commands**: `git config core.quotepath false && hugo --gc --minify`
+- ✅ **Security Headers**: Comprehensive protection enabled
+- ✅ **Performance**: Minification and garbage collection active
+- ✅ **SSL/HTTPS**: Automatic certificate provisioning
+- ✅ **Global CDN**: Fast worldwide content delivery
+
+### Alternative Deployment Options
+
+While Netlify is recommended, the site can also be deployed to:
+
+- **Vercel** - Import project for instant deployments
 - **GitHub Pages** - Use GitHub Actions for automated builds
 - **AWS S3** - Static site hosting with CloudFront CDN
+- **Firebase Hosting** - Google's static hosting platform
 
 ## 📄 License
 
