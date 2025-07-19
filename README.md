@@ -13,8 +13,8 @@ A modern financial technology blog built with Hugo and the Congo theme, explorin
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd fintech-blog
+git clone https://github.com/gahoccode/blog.git
+cd blog
 ```
 
 2. Install Hugo modules:
