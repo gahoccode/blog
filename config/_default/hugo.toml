@@ -7,6 +7,17 @@ title = "FinTech Insights"
 # theme = "congo"  # Commented out for Hugo modules
 defaultContentLanguage = "en"
 
+# Language configuration
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 1
+  [languages.vi]
+    languageCode = "vi-VN"
+    languageName = "Tiếng Việt"
+    weight = 2
+
 enableRobotsTXT = true
 summaryLength = 0
 
