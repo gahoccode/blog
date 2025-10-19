@@ -3,9 +3,11 @@ title: The last puff of a cigar
 date: 2025-10-19
 draft: false
 description: A short-term strategy for capturing small profits, but not sustainable over the long term
-tags: 
+tags:
 categories: ["Investing"]
 ---
+
+{{< katex >}}
 
 ## The Last Puff
 
@@ -153,11 +155,11 @@ Look for short‑term triggers like **asset sales, delistings, or restructurings
 
 ### Example calculation
 Suppose:
-- Current assets = \$100M  
-- Total liabilities = \$70M  
-- Shares outstanding = 10M  
-→ NCAVPS = $$(100 - 70)/10 = \$3$$.  
-If the stock trades at \$1.80, it’s at **60% of NCAVPS**, qualifying under Graham’s rule.
+- Current assets = \$100M
+- Total liabilities = \$70M
+- Shares outstanding = 10M
+→ NCAVPS = \((100 - 70)/10 = \$3\).
+If the stock trades at \$1.80, it's at **60% of NCAVPS**, qualifying under Graham's rule.
 
 ***
 

@@ -5,6 +5,43 @@ All notable changes to the FinTech Insights blog project are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.5] - 2025-10-19
+
+### Added
+- ✅ **KaTeX support documentation** in CLAUDE.md with proper usage guidelines
+- ✅ **Mathematical notation rendering** enabled for all blog posts with formulas
+
+### Fixed
+- 🐛 **LaTeX rendering** - Added `{{< katex >}}` shortcode to posts with mathematical notation
+  - Fixed `content/posts/last-puff.md` - Added shortcode and corrected inline math delimiters
+  - Fixed `content/posts/last-puff.vi.md` - Added shortcode and corrected inline math delimiters
+  - Fixed `content/posts/monte-carlo.md` - Added shortcode and corrected inline math delimiters
+- 🐛 **Inline math delimiter correction** - Changed incorrect `$$` to `\(` and `\)` for inline formulas
+  - Line 161 in last-puff.md: `$$(100 - 70)/10 = \$3$$` → `\((100 - 70)/10 = \$3\)`
+  - Line 173 in last-puff.vi.md: `$$(100 - 70)/10 = \$3$$` → `\((100 - 70)/10 = \$3\)`
+  - Line 39 in monte-carlo.md: `$$\mathcal{O}(1/\sqrt{n})$$` → `\(\mathcal{O}(1/\sqrt{n})\)`
+  - Line 43 in monte-carlo.md: `$$\Omega(\epsilon)$$` and `$$\mathcal{O}(\epsilon^3)$$` → `\(\Omega(\epsilon)\)` and `\(\mathcal{O}(\epsilon^3)\)`
+
+### Changed
+- 📝 **Documentation enhancement** - Added comprehensive KaTeX usage section to CLAUDE.md
+
+### Scope of Impact
+**Files Modified:**
+- `CLAUDE.md` - Added "Mathematical Notation with KaTeX" section
+- `content/posts/last-puff.md` - Added KaTeX shortcode, fixed inline math syntax
+- `content/posts/last-puff.vi.md` - Added KaTeX shortcode, fixed inline math syntax
+- `content/posts/monte-carlo.md` - Added KaTeX shortcode, fixed inline math syntax
+
+**Functionality Impacted:**
+- Mathematical formulas now render correctly using KaTeX
+- Block equations display as centered, standalone elements
+- Inline equations render properly within text flow
+
+**Technical Details:**
+- Congo theme's built-in KaTeX support activated via shortcode
+- No configuration changes required in `params.toml`
+- On-demand asset loading maintains performance
+
 ## [1.0.4] - 2025-07-19
 
 ### Added

@@ -7,6 +7,9 @@ description: Monte Carlo Simulation Inefficiency and Inaccuracy with Machine Lea
 tags: ["Finance", "Machine Learning", "Monte Carlo"]
 categories: ["Data Science", "Financial Modeling", "Machine Learning"]
 ---
+
+{{< katex >}}
+
 ## Monte Carlo Simulation Inefficiency and Inaccuracy with Machine Learning
 
 Based on recent research, several critical posts and papers document the significant challenges when combining Monte Carlo simulation with machine learning approaches. Here are the most relevant findings:
@@ -33,11 +36,11 @@ A 2025 paper from Morgan Stanley and Columbia University titled **"Prediction-En
 
 **Instance-Specific Error Assessment Failure**: Standard ML approaches like training-testing splits or cross-validation cannot measure bias against the true function at the level of each specific parameter instance[3].
 
-**Computational Prohibitiveness**: Classical Monte Carlo becomes computationally prohibitive for nested, multi-level, or path-dependent evaluations, with slow $$\mathcal{O}(1/\sqrt{n})$$ convergence rates. Complex stochastic dynamics can make each sample path extremely costly—sometimes taking hours for a single sample[3].
+**Computational Prohibitiveness**: Classical Monte Carlo becomes computationally prohibitive for nested, multi-level, or path-dependent evaluations, with slow \(\mathcal{O}(1/\sqrt{n})\) convergence rates. Complex stochastic dynamics can make each sample path extremely costly—sometimes taking hours for a single sample[3].
 
 ### **Hamiltonian Monte Carlo Inefficiency with ReLU Neural Networks**
 
-A 2024 NeurIPS paper demonstrates that **Hamiltonian Monte Carlo on ReLU Neural Networks is Inefficient**[4] due to the non-differentiability of activation functions in the ReLU family. This causes leapfrog HMC to have a large local error rate of $$\Omega(\epsilon)$$ rather than the classical $$\mathcal{O}(\epsilon^3)$$ error rate, leading to higher rejection rates and making the method inefficient[4].
+A 2024 NeurIPS paper demonstrates that **Hamiltonian Monte Carlo on ReLU Neural Networks is Inefficient**[4] due to the non-differentiability of activation functions in the ReLU family. This causes leapfrog HMC to have a large local error rate of \(\Omega(\epsilon)\) rather than the classical \(\mathcal{O}(\epsilon^3)\) error rate, leading to higher rejection rates and making the method inefficient[4].
 
 ### **General ML Integration Challenges**
 

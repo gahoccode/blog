@@ -7,6 +7,8 @@ tags:
 categories: ["Đầu tư"]
 ---
 
+{{< katex >}}
+
 ## Hơi Thuốc Cuối Cùng
 
 Trong thế giới đầu tư, ít ẩn dụ nào sinh động—hay khiêm tốn—như "hơi thuốc cuối cùng của điếu xì gà" của Warren Buffett. Vào đầu sự nghiệp, lấy cảm hứng từ các nguyên tắc đầu tư giá trị của Benjamin Graham, Buffett tìm kiếm các công ty bị đánh giá thấp, bị bỏ quên, giao dịch ở mức giá cực thấp. Những doanh nghiệp này giống như những đầu xì gà bỏ đi trên đường phố: không hấp dẫn, thường gặp khó khăn, nhưng vẫn còn một "hơi thuốc miễn phí" cuối cùng cho nhà đầu tư biết nắm bắt cơ hội.
@@ -168,7 +170,7 @@ Giả sử:
 - Tài sản hiện tại = \$100M
 - Tổng nợ phải trả = \$70M
 - Số cổ phiếu lưu hành = 10M
-→ NCAVPS = $$(100 - 70)/10 = \$3$$.
+→ NCAVPS = \((100 - 70)/10 = \$3\).
 Nếu cổ phiếu giao dịch ở mức \$1.80, nó ở **60% NCAVPS**, đủ điều kiện theo quy tắc của Graham.
 
 ***

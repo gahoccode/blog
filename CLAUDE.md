@@ -123,6 +123,34 @@ Use these consistent categories across content:
 - **Investment** - Trading, wealth management
 - **Regulation** - Compliance, RegTech, policy
 
+### Mathematical Notation with KaTeX
+
+The Congo theme has built-in KaTeX support for rendering mathematical formulas. To enable it:
+
+**1. Add the KaTeX shortcode** (once per article, anywhere in content):
+```markdown
+{{< katex >}}
+```
+
+**2. Use proper delimiters:**
+- **Block equations** (centered, standalone): Use `$$` delimiters
+  ```markdown
+  $$
+  f(x) = x^2 + 2x + 1
+  $$
+  ```
+
+- **Inline equations** (within text): Use `\(` and `\)` delimiters
+  ```markdown
+  The complexity is \(\mathcal{O}(n \log n)\) for this algorithm.
+  ```
+
+**Important:**
+- Never use `$$` for inline math (common mistake) - always use `\(` and `\)`
+- The shortcode must be present for any math to render
+- No configuration needed in `params.toml` - KaTeX is built into Congo theme
+- Assets load on-demand only when shortcode is used (performance optimized)
+
 ## Deployment Configuration
 
 ### Netlify Setup
