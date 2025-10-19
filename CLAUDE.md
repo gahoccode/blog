@@ -58,10 +58,11 @@ hugo mod clean
 ### Bilingual Content Strategy
 This site supports English (default) and Vietnamese translations:
 
-- **English content**: `content/posts/post-name.md`
-- **Vietnamese content**: `content/posts/post-name.vi.md`
+- **English content**: `content/posts/post-name/index.md`
+- **Vietnamese content**: `content/posts/post-name/index.vi.md`
 - Language switching handled by Hugo's multilingual features
 - Separate menu configurations per language: `menus.en.toml` and `menus.vi.toml`
+- Posts use **page bundles** (directories) to organize content and images together
 
 ### Configuration Architecture
 Hugo uses split configuration files in `config/_default/`:
@@ -74,7 +75,7 @@ Hugo uses split configuration files in `config/_default/`:
 - **`markup.toml`** - Markdown rendering and syntax highlighting
 - **`taxonomies.toml`** - Content categorization (tags, categories)
 
-### Content Organization
+### Content Organization (Page Bundles)
 ```
 content/
 ├── _index.md              # English homepage
@@ -83,9 +84,17 @@ content/
 ├── contact.md / contact.vi.md
 └── posts/
     ├── _index.md / _index.vi.md
-    ├── post-name.md       # English version
-    └── post-name.vi.md    # Vietnamese version
+    └── post-name/         # Page bundle directory
+        ├── index.md       # English content
+        ├── index.vi.md    # Vietnamese content
+        ├── thumb.svg      # Thumbnail for listings
+        └── cover.jpg      # Cover image (optional)
 ```
+
+**Important:** All blog posts must use **page bundles** (directories) rather than standalone `.md` files. This allows Congo theme to:
+- Automatically detect and display thumbnail images
+- Co-locate images with post content
+- Enable advanced Hugo features like resource processing
 
 ### Hugo Modules vs Traditional Themes
 This project uses Hugo modules (modern approach) rather than git submodules:
@@ -109,11 +118,14 @@ categories: ["Category"]
 ---
 ```
 
-### Bilingual Workflow
-1. Create English version: `hugo new posts/topic.md`
-2. Create Vietnamese version: `hugo new posts/topic.vi.md`
-3. Ensure both files have matching slugs (filename before extension)
-4. Hugo automatically links language versions
+### Bilingual Workflow (Page Bundles)
+1. Create page bundle directory: `mkdir content/posts/topic`
+2. Create English version: `content/posts/topic/index.md`
+3. Create Vietnamese version: `content/posts/topic/index.vi.md`
+4. Add thumbnail image: `content/posts/topic/thumb.jpg` (or `.png`, `.svg`, `.webp`)
+5. Hugo automatically links language versions within the same directory
+
+**Note:** Hugo's `hugo new` command doesn't natively support page bundles, so create directories and files manually.
 
 ### Predefined Categories
 Use these consistent categories across content:
@@ -122,6 +134,57 @@ Use these consistent categories across content:
 - **Payments** - Mobile payments, crypto, processing
 - **Investment** - Trading, wealth management
 - **Regulation** - Compliance, RegTech, policy
+
+### Post Thumbnails and Images
+
+The Congo theme automatically detects and displays images based on filename patterns:
+
+**Thumbnail Images** (displayed in post listings):
+- **Filename pattern:** Must contain `thumb` anywhere in the name
+- **Valid examples:** `thumb.jpg`, `thumbnail.png`, `post-thumb.svg`, `thumb.webp`
+- **Placement:** Same directory as `index.md` (page bundle root)
+- **Aspect ratio:** Auto-cropped to 4:3 by Congo
+- **Recommended size:** Minimum 1200x900px for quality
+
+**Cover Images** (displayed at top of article page):
+- **Filename pattern:** Must contain `cover` anywhere in the name
+- **Valid examples:** `cover.jpg`, `header-cover.png`, `cover-image.webp`
+- **Placement:** Same directory as `index.md`
+- **Aspect ratio:** Any (automatically resized while maintaining aspect ratio)
+- **Recommended size:** Minimum 1920x1080px
+
+**Feature Images** (replaces both thumb and cover + social media):
+- **Filename pattern:** Must contain `feature` anywhere in the name
+- **Valid examples:** `feature.jpg`, `featured-image.png`
+- **Priority:** Highest - overrides thumb and cover if present
+- **Recommended size:** 1200x630px (optimal for social sharing)
+
+**Image Formats:**
+- Supported: JPG, PNG, WebP, SVG
+- Congo automatically converts to WebP if `enableImageWebp = true` (default)
+- SVG works great for placeholder thumbnails
+
+**Example page bundle with images:**
+```
+content/posts/my-post/
+├── index.md         # English content
+├── index.vi.md      # Vietnamese content
+├── thumb.svg        # Thumbnail (auto-detected)
+├── cover.jpg        # Cover image (auto-detected)
+└── diagram.png      # Other images referenced in post
+```
+
+**Accessibility:**
+Add alt text in front matter:
+```yaml
+---
+title: "Post Title"
+featureAlt: "Description of feature image"
+coverAlt: "Description of cover image"    # Inherits featureAlt if not set
+thumbnailAlt: "Description of thumbnail"  # Inherits featureAlt if not set
+coverCaption: "Photo credit or caption"
+---
+```
 
 ### Mathematical Notation with KaTeX
 

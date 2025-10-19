@@ -5,6 +5,65 @@ All notable changes to the FinTech Insights blog project are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.6] - 2025-10-19
+
+### Added
+- ✅ **Page bundle structure** for all blog posts to support images and resources
+- ✅ **Thumbnail images** for all posts using SVG placeholders with unique gradients
+- ✅ **Post Thumbnails and Images documentation** in CLAUDE.md with comprehensive guidelines
+- ✅ **Automatic image detection** via Congo theme's filename pattern matching
+
+### Changed
+- 🔄 **Content structure migration** - Converted all standalone `.md` files to page bundles
+  - `ai-in-finance.md` → `ai-in-finance/index.md`
+  - `cryptocurrency-adoption-2024.md` → `cryptocurrency-adoption-2024/index.md`
+  - `n8n-automation.md` → `n8n-automation/index.md`
+  - `last-puff.md` + `last-puff.vi.md` → `last-puff/index.md` + `last-puff/index.vi.md`
+  - `monte-carlo.md` → `monte-carlo/index.md`
+  - `welcome-to-fintech-insights.md` + `.vi.md` → `welcome-to-fintech-insights/index.md` + `index.vi.md`
+- 🔄 **CLAUDE.md structure** - Updated content organization examples to reflect page bundles
+- 🔄 **Bilingual workflow** - Updated to use page bundles instead of standalone files
+
+### Scope of Impact
+
+**Files Restructured:**
+- All 6 blog posts converted from standalone files to page bundle directories
+- Each page bundle contains `index.md` (and `index.vi.md` for bilingual posts)
+- SVG thumbnail added to each page bundle
+
+**New Files Created:**
+- `content/posts/ai-in-finance/thumb.svg` - Blue/purple gradient
+- `content/posts/cryptocurrency-adoption-2024/thumb.svg` - Pink/red gradient
+- `content/posts/n8n-automation/thumb.svg` - Cyan/blue gradient
+- `content/posts/last-puff/thumb.svg` - Pink/yellow gradient
+- `content/posts/monte-carlo/thumb.svg` - Teal/dark blue gradient
+- `content/posts/welcome-to-fintech-insights/thumb.svg` - Multi-color pastel gradient
+
+**Documentation Updated:**
+- `CLAUDE.md` - Added comprehensive "Post Thumbnails and Images" section
+- `CLAUDE.md` - Updated "Content Organization" to show page bundle structure
+- `CLAUDE.md` - Updated "Bilingual Workflow" for page bundles
+
+**Functionality Impacted:**
+- Post listings now display thumbnail images next to titles
+- Thumbnails auto-cropped to 4:3 aspect ratio by Congo theme
+- Page bundles enable co-location of post content with images
+- Hugo resource processing features now available for all posts
+- Bilingual posts share thumbnails within same directory
+
+**Technical Details:**
+- Congo theme automatically detects images based on filename patterns (`thumb`, `cover`, `feature`)
+- No configuration changes required - works out of the box
+- SVG format used for placeholders (can be replaced with JPG/PNG/WebP)
+- Recommended thumbnail size: 1200x900px (4:3 ratio)
+- All images automatically converted to WebP by Congo if `enableImageWebp = true`
+
+**User Impact:**
+- Improved visual presentation in post listings
+- Better UX with recognizable post thumbnails
+- Easier to identify posts at a glance
+- SVG placeholders ready for replacement with custom images
+
 ## [1.0.5] - 2025-10-19
 
 ### Added
