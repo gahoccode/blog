@@ -2,48 +2,60 @@
 title: "Welcome to FinTech Insights"
 date: 2024-07-19T11:45:00+07:00
 draft: false
-description: "Welcome to our comprehensive guide to financial technology trends, innovations, and insights."
-tags: ["fintech", "welcome", "introduction"]
+description: "A personal research blog documenting interesting findings and ideas on investing and trading approaches."
+tags: ["investing", "trading", "research", "welcome"]
 categories: ["General"]
 ---
 
 # Welcome to FinTech Insights
 
-Welcome to **FinTech Insights**, your premier destination for exploring the rapidly evolving world of financial technology. In this digital age, the intersection of finance and technology continues to reshape how we think about money, banking, investments, and financial services.
+Welcome to my personal research notebook where I share interesting findings and ideas about investing and trading approaches that I discover through my ongoing research—both using AI tools like Perplexity and through manual exploration across the web.
 
-## What We Cover
+## What This Blog Is About
 
-Our blog focuses on several key areas of financial technology:
+This isn't your typical financial news site or investment advice platform. Instead, it's a collection of:
 
+### 🔍 Research Findings
+- Investment strategies I find intriguing online
+- Trading approaches worth exploring
+- Quantitative methods and backtesting insights
+- Portfolio construction techniques
 
-### 📊 Investment Technology
-- Robo-advisors and automated investing
-- Trading strategies and tools
-- Opensource investment platforms
-- Portfolio management tools and web apps
+### 💡 Ideas & Concepts
+- Alternative investment frameworks
+- Risk management approaches
+- Market analysis methodologies
+- Tools and technologies for investors
 
-### 🤖 Emerging Technologies
-- Artificial Intelligence in finance
-- AI applications in finance
-- Blockchain applications beyond cryptocurrency
-- AI automation workflows
+### 🤖 AI-Assisted Discovery
+- Insights uncovered using Perplexity AI
+- Synthesized research from multiple sources
+- Connections between different investment philosophies
+- Emerging trends in quantitative finance
 
-## Why FinTech Matters
+## Why I Created This Blog
 
-The financial technology sector is not just about creating new apps or services—it's about fundamentally reimagining how financial services can be more:
+The investment and trading landscape is vast and constantly evolving. Through my research, I come across fascinating approaches, strategies, and ideas that deserve deeper exploration and documentation. This blog serves as both:
 
-- **Accessible**: Breaking down barriers to financial services
-- **Efficient**: Streamlining processes and reducing costs
-- **Transparent**: Providing clearer information and pricing
-- **Inclusive**: Serving underbanked and unbanked populations
-- **Secure**: Implementing advanced security measures
+- **A learning journal** - Documenting my research journey
+- **A knowledge base** - Organizing interesting findings for future reference
+- **A sharing platform** - Making these discoveries accessible to others interested in investing and trading
 
-## What's Next
+## What You'll Find Here
 
-Stay tuned for in-depth analysis, industry insights, company spotlights, and trend predictions. We'll be covering everything from startup innovations to enterprise solutions, regulatory changes to market analysis.
+Expect posts covering:
 
-Whether you're a fintech professional, investor, entrepreneur, or simply curious about the future of finance, we're here to provide you with valuable insights and perspectives.
+- **Investment Strategies** - Value investing, growth investing, momentum, and hybrid approaches
+- **Trading Techniques** - Technical analysis, algorithmic trading, options strategies
+- **Portfolio Management** - Asset allocation, diversification, rebalancing methodologies
+- **Quantitative Finance** - Backtesting, statistical analysis, factor investing
+- **Tools & Platforms** - Open-source investment tools, data sources, automation workflows
+- **Market Insights** - Behavioral finance, market inefficiencies, emerging opportunities
+
+## A Note on Research
+
+Everything shared here is based on research and exploration—not financial advice. I'm documenting what I find interesting and worth investigating further. Always do your own research and consult with qualified professionals before making investment decisions.
 
 ---
 
-*Ready to dive into the world of financial technology? Explore our latest posts and join the conversation about the future of finance.*
+*Let's explore the fascinating world of investing and trading together. Follow along as I share my research discoveries and insights.*
