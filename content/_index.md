@@ -1,17 +1,34 @@
 ---
 title: "FinTech Insights"
-description: "Exploring the latest trends, technologies, and insights in financial technology."
+description: "Personal research notebook documenting investment strategies and trading approaches discovered through AI-assisted and manual research."
 ---
 
-# Welcome to FinTech Insights! 🚀
+# Welcome to My Investment Research Notebook
 
-**A comprehensive resource for financial technology insights built with modern web technologies.**
+This is where I document interesting findings and ideas about investing and trading strategies that I discover through ongoing research—using both AI tools like Perplexity and manual exploration across the web.
 
-This is your go-to destination for exploring the rapidly evolving world of financial technology. FinTech Insights covers everything from digital banking innovations to regulatory developments, bringing you the analysis and insights that matter most in today's financial landscape.
+## What You'll Find Here
 
-## What We Cover
+I explore and share research on:
 
+- **Investment Strategies** - Value investing, growth approaches, momentum trading, and hybrid methods
+- **Quantitative Finance** - Backtesting techniques, statistical analysis, factor investing
+- **Portfolio Management** - Asset allocation strategies, diversification, rebalancing methods
+- **Trading Psychology** - Behavioral finance insights, market inefficiencies, decision-making
+- **Research Tools** - Open-source platforms, data sources, automation workflows
 
-- 📊 **Investment Tech** - Robo-advisors, trading platforms, and wealth management
-- 🤖 **AI & Innovation** - Machine learning, blockchain, and emerging technologies
-- 📊 **AI in Finance** - AI applications in finance
+## My Research Approach
+
+Every post here represents strategies and ideas I've found compelling enough to document. I use:
+
+- **AI-assisted discovery** through Perplexity AI to synthesize research from multiple sources
+- **Manual research** diving into academic papers, books, and investment case studies
+- **Critical analysis** examining assumptions, risks, and practical applications
+
+## Not Financial Advice
+
+This blog is a personal research journal documenting my learning journey. Nothing here should be considered personalized investment advice. Always conduct your own research and consult qualified professionals before making investment decisions.
+
+---
+
+**Explore the latest posts below or [connect with me](/contact) to discuss investment strategies.**

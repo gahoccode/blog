@@ -2,61 +2,59 @@
 title: "Contact"
 date: 2024-07-19T12:00:00+07:00
 draft: false
-description: "Get in touch with the FinTech Insights team."
+description: "Connect with me to discuss investment strategies and trading research."
 showDate: false
 showAuthor: false
 showReadingTime: false
 showEdit: false
 ---
 
-# Contact Us
+# Let's Connect
 
-We'd love to hear from you! Whether you have questions, feedback, story suggestions, or partnership opportunities, don't hesitate to reach out.
+I'd love to connect with fellow investors and researchers who are interested in investment strategies, trading approaches, and quantitative finance.
 
 ## Get in Touch
 
-### Email
-- **General Inquiries**: hello@fintechinsights.com
-- **Editorial**: editorial@fintechinsights.com
-- **Partnerships**: partnerships@fintechinsights.com
+The best way to reach me is through LinkedIn:
 
-### Social Media
-- **Twitter**: [@FinTechInsights](https://twitter.com/fintechinsights)
-- **LinkedIn**: [FinTech Insights](https://linkedin.com/company/fintechinsights)
-- **Medium**: [@fintechinsights](https://medium.com/@fintechinsights)
+**LinkedIn**: [linkedin.com/in/tamlefpa](https://linkedin.com/in/tamlefpa)
 
-## What We're Looking For
+Feel free to send me a connection request or message if you want to:
 
-### Story Tips
-Have a fintech story that deserves attention? We're always interested in:
-- Breaking news and developments
-- Startup launches and funding rounds
-- Regulatory changes and their implications
-- Technology innovations and trends
+- **Discuss investment strategies** - Share insights about value investing, quantitative approaches, or trading techniques
+- **Exchange research findings** - Talk about interesting papers, books, or resources you've discovered
+- **Explore collaboration opportunities** - Discuss potential partnerships or professional engagements
+- **Connect professionally** - Network with someone passionate about financial markets and investing
 
-### Guest Contributors
-We welcome guest posts from industry experts, practitioners, and thought leaders. If you have insights to share, please reach out with:
-- Your proposed topic
-- A brief outline
-- Your background and expertise
+## Topics I Enjoy Discussing
 
-### Partnership Opportunities
-Interested in collaborating? We're open to:
-- Content partnerships
-- Event collaborations
-- Research partnerships
-- Sponsored content (clearly marked)
+I'm particularly interested in conversations about:
+
+- **Value investing principles** - Graham, Buffett, cigar-butt investing, and modern adaptations
+- **Quantitative strategies** - Backtesting, factor investing, statistical approaches
+- **Trading psychology** - Behavioral finance, market inefficiencies, decision-making
+- **Portfolio management** - Asset allocation, diversification, risk management
+- **Research tools** - Python libraries, data sources, open-source financial tools
+- **Investment education** - Books, papers, courses, and learning resources
+
+## Professional Inquiries
+
+For business-related matters, consulting inquiries, or partnership opportunities, please reach out via LinkedIn with details about:
+
+- Your specific needs or objectives
+- Timeline and scope
+- Any relevant background information
+
+I'll respond as soon as possible to discuss how we might work together.
+
+## Community & Discussion
+
+While I don't have a comments section on this blog yet, I'm always open to discussions via LinkedIn. If you've read a post and want to share your thoughts, ask questions, or engage in deeper conversation, please reach out.
 
 ## Response Time
 
-We aim to respond to all inquiries within 48 hours during business days. For urgent matters, please indicate this in your subject line.
-
-## Office Hours
-
-Our team is available:
-- **Monday - Friday**: 9:00 AM - 6:00 PM (GMT+7)
-- **Weekend**: Limited availability for urgent matters
+I check LinkedIn regularly and aim to respond within a few days. For time-sensitive matters, please indicate urgency in your message subject.
 
 ---
 
-*Thank you for your interest in FinTech Insights. We look forward to connecting with you!*
+*Looking forward to connecting and learning together!*

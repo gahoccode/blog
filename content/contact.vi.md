@@ -1,114 +1,54 @@
 ---
 title: "Liên hệ"
-description: "Liên hệ với đội ngũ FinTech Insights để được hỗ trợ, hợp tác hoặc chia sẻ ý kiến về công nghệ tài chính."
+description: "Kết nối với tôi để thảo luận về chiến lược đầu tư và nghiên cứu giao dịch."
 ---
 
-# Liên hệ với chúng tôi
+# Hãy kết nối
 
-Chúng tôi rất mong được kết nối với bạn! Dù bạn có câu hỏi, ý kiến đóng góp, hay muốn hợp tác, đội ngũ FinTech Insights luôn sẵn sàng lắng nghe.
+Tôi rất mong được kết nối với những nhà đầu tư và nhà nghiên cứu quan tâm đến chiến lược đầu tư, phương pháp giao dịch và tài chính định lượng.
 
-## 📧 Thông tin liên hệ
+## Liên hệ
 
-### Email chính
-**contact@fintechinsights.com**
-- Câu hỏi chung và hỗ trợ
-- Đề xuất nội dung
-- Phản hồi về website
+Cách tốt nhất để liên lạc với tôi là qua LinkedIn:
 
-### Email chuyên biệt
-- **Hợp tác**: partnerships@fintechinsights.com
-- **Báo chí**: press@fintechinsights.com
-- **Kỹ thuật**: tech@fintechinsights.com
+**LinkedIn**: [linkedin.com/in/tamlefpa](https://linkedin.com/in/tamlefpa)
 
-## 🌐 Mạng xã hội
+Hãy gửi lời mời kết nối hoặc tin nhắn nếu bạn muốn:
 
-Theo dõi chúng tôi để cập nhật những thông tin mới nhất:
+- **Thảo luận chiến lược đầu tư** - Chia sẻ hiểu biết về đầu tư giá trị, phương pháp định lượng, hoặc kỹ thuật giao dịch
+- **Trao đổi kết quả nghiên cứu** - Nói về những bài báo, sách hoặc tài nguyên thú vị bạn đã khám phá
+- **Khám phá cơ hội hợp tác** - Thảo luận về quan hệ đối tác hoặc dịch vụ chuyên môn
+- **Kết nối chuyên nghiệp** - Giao lưu với người đam mê thị trường tài chính và đầu tư
 
-- **🐦 Twitter**: [@FinTechInsights](https://twitter.com/fintechinsights)
-- **💼 LinkedIn**: [FinTech Insights](https://linkedin.com/company/fintechinsights)
-- **📺 YouTube**: [FinTech Insights Channel](https://youtube.com/fintechinsights)
-- **📘 Facebook**: [FinTech Insights](https://facebook.com/fintechinsights)
+## Chủ đề tôi quan tâm
 
-## 💬 Cách thức liên hệ
+Tôi đặc biệt thích các cuộc trò chuyện về:
 
-### Đối với độc giả
-- Câu hỏi về nội dung bài viết
-- Đề xuất chủ đề mới
-- Phản hồi và ý kiến
-- Yêu cầu giải thích thêm về các khái niệm
+- **Nguyên tắc đầu tư giá trị** - Graham, Buffett, cigar-butt investing và các biến thể hiện đại
+- **Chiến lược định lượng** - Backtesting, factor investing, phương pháp thống kê
+- **Tâm lý giao dịch** - Tài chính hành vi, điểm yếu thị trường, ra quyết định
+- **Quản lý danh mục** - Phân bổ tài sản, đa dạng hóa, quản lý rủi ro
+- **Công cụ nghiên cứu** - Thư viện Python, nguồn dữ liệu, công cụ tài chính mã nguồn mở
+- **Giáo dục đầu tư** - Sách, bài báo, khóa học và tài liệu học tập
 
-### Đối với chuyên gia ngành
-- Chia sẻ kiến thức và kinh nghiệm
-- Tham gia viết bài khách mời
-- Phỏng vấn và trao đổi chuyên môn
-- Hợp tác nghiên cứu
+## Yêu cầu chuyên nghiệp
 
-### Đối với doanh nghiệp
-- Giới thiệu sản phẩm/dịch vụ FinTech
-- Hợp tác nội dung marketing
-- Tài trợ và quảng cáo
-- Sự kiện và hội thảo
+Đối với các vấn đề kinh doanh, yêu cầu tư vấn, hoặc cơ hội hợp tác, vui lòng liên hệ qua LinkedIn với thông tin chi tiết về:
 
-## 🤝 Cơ hội hợp tác
+- Nhu cầu hoặc mục tiêu cụ thể của bạn
+- Thời gian và phạm vi
+- Bất kỳ thông tin nền tảng liên quan nào
 
-Chúng tôi luôn tìm kiếm những cơ hội hợp tác có ý nghĩa:
+Tôi sẽ phản hồi sớm nhất có thể để thảo luận về cách chúng ta có thể làm việc cùng nhau.
 
-### Viết bài khách mời
-- Chia sẻ chuyên môn của bạn với cộng đồng
-- Xây dựng thương hiệu cá nhân
-- Kết nối với những chuyên gia khác
+## Cộng đồng & Thảo luận
 
-### Phỏng vấn chuyên gia
-- Chia sẻ câu chuyện thành công
-- Thảo luận về xu hướng ngành
-- Đưa ra dự đoán về tương lai
+Mặc dù tôi chưa có phần bình luận trên blog, tôi luôn sẵn sàng thảo luận qua LinkedIn. Nếu bạn đã đọc một bài viết và muốn chia sẻ suy nghĩ, đặt câu hỏi hoặc tham gia cuộc trò chuyện sâu hơn, hãy liên hệ.
 
-### Hợp tác nghiên cứu
-- Khảo sát thị trường FinTech
-- Phân tích xu hướng công nghệ
-- Báo cáo chuyên ngành
+## Thời gian phản hồi
 
-## 📝 Hướng dẫn gửi nội dung
-
-Nếu bạn muốn đóng góp nội dung, vui lòng tuân thủ:
-
-### Yêu cầu nội dung
-- Nội dung gốc và chưa được xuất bản
-- Liên quan đến FinTech hoặc công nghệ tài chính
-- Có giá trị thông tin và giáo dục
-- Độ dài tối thiểu 1000 từ
-
-### Định dạng
-- Tiêu đề rõ ràng và hấp dẫn
-- Cấu trúc bài viết logic
-- Sử dụng heading và bullet points
-- Bao gồm nguồn tham khảo
-
-### Quy trình
-1. Gửi outline và ý tưởng trước
-2. Chờ phản hồi và chỉnh sửa
-3. Viết bài hoàn chỉnh
-4. Review và xuất bản
-
-## 🕐 Thời gian phản hồi
-
-- **Email thường**: 24-48 giờ
-- **Hợp tác**: 3-5 ngày làm việc
-- **Nội dung khách mời**: 1-2 tuần
-- **Khẩn cấp**: Trong ngày (đánh dấu [URGENT])
-
-## 🌍 Ngôn ngữ hỗ trợ
-
-Chúng tôi có thể giao tiếp bằng:
-- **Tiếng Việt** (chính)
-- **English** (fluent)
-
-## 📍 Múi giờ
-
-Đội ngũ của chúng tôi hoạt động chủ yếu theo:
-- **GMT+7** (Giờ Việt Nam)
-- Thời gian làm việc: 9:00 - 18:00 (Thứ 2 - Thứ 6)
+Tôi kiểm tra LinkedIn thường xuyên và cố gắng phản hồi trong vài ngày. Đối với các vấn đề cấp bách, vui lòng ghi rõ trong tiêu đề tin nhắn.
 
 ---
 
-*Chúng tôi rất mong được nghe từ bạn và cùng nhau xây dựng cộng đồng FinTech Việt Nam phát triển mạnh mẽ!* 🚀
+*Mong được kết nối và học hỏi cùng nhau!*

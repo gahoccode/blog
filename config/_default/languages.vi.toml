@@ -4,22 +4,19 @@ languageDirection = "ltr"
 weight = 2
 
 title = "FinTech Insights"
-copyright = "&copy; 2024 FinTech Insights"
+copyright = "&copy; 2024 Tam Le"
 
 [params]
   dateFormat = "2 January 2006"
 
   mainSections = ["posts"]
-  description = "Khám phá những xu hướng, công nghệ và thông tin mới nhất trong lĩnh vực công nghệ tài chính."
+  description = "Sổ tay nghiên cứu cá nhân ghi chép các chiến lược đầu tư và phương pháp giao dịch được khám phá qua nghiên cứu có hỗ trợ AI."
 
 [params.author]
-  name = "Đội ngũ FinTech Insights"
+  name = "Tam Le"
   image = "img/author.jpg"
-  headline = "Hướng dẫn bạn về công nghệ tài chính!"
-  bio = "Chúng tôi đam mê khám phá sự giao thoa giữa tài chính và công nghệ, mang đến cho bạn những thông tin, xu hướng và phân tích mới nhất trong thế giới FinTech."
+  headline = "Nghiên cứu đầu tư & Chiến lược giao dịch"
+  bio = "Ghi chép hành trình nghiên cứu của tôi về các phương pháp đầu tư và giao dịch thông qua nghiên cứu có hỗ trợ AI và tìm kiếm thủ công. Đam mê đầu tư giá trị, tài chính định lượng và tâm lý thị trường."
   links = [
-    { x-twitter = "https://twitter.com/" },
-    { facebook = "https://facebook.com/" },
-    { linkedin = "https://linkedin.com/" },
-    { youtube = "https://youtube.com/" },
+    { linkedin = "https://linkedin.com/in/tamlefpa" },
   ]

@@ -1,107 +1,91 @@
 ---
 title: "Giới thiệu"
-description: "Tìm hiểu về FinTech Insights - nguồn thông tin đáng tin cậy về công nghệ tài chính và đổi mới trong ngành FinTech."
+description: "Tìm hiểu về hành trình nghiên cứu đầu tư của tôi và lý do tôi tạo blog này."
 ---
 
-# Giới thiệu về FinTech Insights
+# Giới thiệu về Blog
 
-Chào mừng bạn đến với **FinTech Insights** - điểm đến hàng đầu cho những ai muốn khám phá thế giới công nghệ tài chính đang phát triển nhanh chóng.
+Chào mừng! Rất vui được gặp bạn. Blog này là sổ tay nghiên cứu cá nhân của tôi, nơi tôi ghi chép những phát hiện và ý tưởng thú vị về các chiến lược đầu tư và giao dịch mà tôi khám phá qua quá trình nghiên cứu liên tục—bao gồm cả việc sử dụng công cụ AI như Perplexity và tìm kiếm thủ công trên web.
 
-## Sứ mệnh của chúng tôi
+## Tôi là ai
 
-Chúng tôi cam kết mang đến những thông tin chính xác, kịp thời và có giá trị về:
+Tôi là một người đam mê tài chính, yêu thích việc khám phá, tìm hiểu và thử nghiệm các chiến lược đầu tư. Thay vì chỉ dựa vào quan điểm thông thường, tôi thích đi sâu vào nhiều phương pháp khác nhau—từ nguyên tắc đầu tư giá trị đến các phương pháp định lượng—để hiểu xem cái gì hiệu quả và tại sao.
 
-- 🏦 **Ngân hàng số và Neobanks**
-- 💳 **Công nghệ thanh toán và ví điện tử**
-- 🤖 **Trí tuệ nhân tạo trong tài chính**
-- ₿ **Tiền điện tử và Blockchain**
-- 📊 **RegTech và tuân thủ quy định**
-- 💼 **Robo-advisors và đầu tư tự động**
+## Tại sao tôi tạo Blog này
 
-## Chúng tôi là ai
+Bối cảnh đầu tư và giao dịch rất rộng lớn và liên tục thay đổi. Qua nghiên cứu, tôi gặp nhiều phương pháp, chiến lược và ý tưởng hấp dẫn xứng đáng được khám phá sâu hơn và ghi chép lại. Blog này phục vụ như:
 
-FinTech Insights được điều hành bởi một đội ngũ các chuyên gia am hiểu sâu sắc về công nghệ tài chính, bao gồm:
+- **Nhật ký học tập** - Ghi lại hành trình nghiên cứu và những gì tôi khám phá
+- **Cơ sở kiến thức** - Tổ chức các phát hiện thú vị để tham khảo sau này
+- **Nền tảng chia sẻ** - Giúp những người quan tâm đến đầu tư và giao dịch tiếp cận các khám phá này
 
-- **Nhà phân tích FinTech** với nhiều năm kinh nghiệm trong ngành
-- **Chuyên gia công nghệ** hiểu rõ về AI, blockchain và các công nghệ mới nổi
-- **Nhà báo tài chính** chuyên về xu hướng thị trường và đổi mới
-- **Cố vấn ngành** từ các tổ chức tài chính hàng đầu
+## Bạn sẽ tìm thấy gì ở đây
 
-## Tại sao chọn FinTech Insights?
+Các bài viết của tôi đề cập đến:
 
-### 📚 Nội dung chất lượng cao
-Mỗi bài viết được nghiên cứu kỹ lưỡng và viết bởi các chuyên gia trong lĩnh vực.
+- **Chiến lược đầu tư** - Đầu tư giá trị, tăng trưởng, momentum và các phương pháp kết hợp
+- **Kỹ thuật giao dịch** - Phân tích kỹ thuật, các khái niệm thuật toán, chiến lược quyền chọn
+- **Quản lý danh mục** - Phân bổ tài sản, đa dạng hóa, phương pháp tái cân bằng
+- **Tài chính định lượng** - Phương pháp backtesting, phân tích thống kê, đầu tư theo yếu tố
+- **Công cụ nghiên cứu** - Công cụ đầu tư mã nguồn mở, nguồn dữ liệu, quy trình tự động hóa
+- **Thông tin thị trường** - Tài chính hành vi, mô hình thị trường, cơ hội mới nổi
 
-### 🔍 Phân tích chuyên sâu
-Chúng tôi không chỉ báo cáo tin tức mà còn phân tích tác động và ý nghĩa của các xu hướng.
+## Phương pháp nghiên cứu của tôi
 
-### 🌐 Góc nhìn toàn cầu
-Theo dõi và phân tích các phát triển FinTech trên toàn thế giới.
+Tôi sử dụng kết hợp nhiều phương pháp để khám phá và phân tích các cách tiếp cận đầu tư:
 
-### ⚡ Cập nhật kịp thời
-Luôn đưa tin về những phát triển mới nhất trong ngành.
+### Nghiên cứu có hỗ trợ AI
+Tôi tận dụng các công cụ như **Perplexity AI** để:
+- Tổng hợp nghiên cứu từ nhiều nguồn
+- Tìm ra mối liên hệ giữa các triết lý đầu tư khác nhau
+- Khám phá xu hướng mới nổi trong tài chính định lượng
+- Hiểu các chiến lược phức tạp nhanh hơn
 
-## Chủ đề chúng tôi đề cập
+### Tìm kiếm thủ công
+Tôi cũng dành thời gian:
+- Đọc các bài báo học thuật và sách
+- Phân tích các nghiên cứu điển hình về các nhà đầu tư thành công
+- Khám phá các công cụ và thư viện tài chính mã nguồn mở
+- Theo dõi các thảo luận trong cộng đồng đầu tư
 
-### Công nghệ cốt lõi
-- Blockchain và Distributed Ledger Technology
-- Trí tuệ nhân tạo và Machine Learning
-- Cloud Computing trong tài chính
-- API và Open Banking
+### Phân tích phê phán
+Mọi chiến lược tôi ghi chép ở đây đều qua bộ lọc của tôi:
+- Logic có hợp lý không?
+- Các giả định cơ bản là gì?
+- Rủi ro và hạn chế là gì?
+- Làm thế nào có thể kiểm tra hoặc xác thực điều này?
 
-### Ứng dụng thực tế
-- Thanh toán di động và ví điện tử
-- Cho vay P2P và crowdfunding
-- Bảo hiểm số (InsurTech)
-- Quản lý tài sản cá nhân
+## Blog này KHÔNG phải là gì
 
-### Quy định và tuân thủ
-- Sandbox quy định cho FinTech
-- GDPR và bảo vệ dữ liệu
-- AML/KYC và chống rửa tiền
-- PCI DSS và bảo mật thanh toán
+Quan trọng là phải rõ ràng về những gì blog này không phải:
 
-## Cộng đồng của chúng tôi
+- **Không phải lời khuyên tài chính** - Mọi thứ ở đây chỉ nhằm mục đích giáo dục và nghiên cứu
+- **Không phải trang tin tức** - Tôi không báo cáo về diễn biến thị trường hàng ngày hoặc tin tức nóng
+- **Không phải dịch vụ khuyến nghị** - Tôi không nói cho ai nên mua hay bán gì
+- **Không phải hoạt động thương mại** - Không có khóa học, bản tin hoặc dịch vụ trả phí
 
-FinTech Insights không chỉ là một blog - chúng tôi là một cộng đồng những người đam mê công nghệ tài chính. Chúng tôi khuyến khích:
+## Lưu ý về Nghiên cứu so với Lời khuyên
 
-- 💬 **Thảo luận** về các xu hướng và phát triển mới
-- 🤝 **Chia sẻ** kinh nghiệm và kiến thức
-- 🎯 **Kết nối** với các chuyên gia trong ngành
-- 📈 **Học hỏi** từ những thành công và thất bại
+Mọi thông tin được chia sẻ ở đây đều dựa trên nghiên cứu và khám phá—ghi lại những gì tôi thấy thú vị và đáng điều tra thêm. Tôi không phải là cố vấn tài chính được cấp phép, và không có gì trên blog này nên được coi là lời khuyên đầu tư cá nhân.
 
-## Cam kết của chúng tôi
+Luôn tự nghiên cứu, hiểu mức độ chấp nhận rủi ro của bạn và tham khảo ý kiến các chuyên gia có trình độ trước khi đưa ra bất kỳ quyết định đầu tư nào.
 
-### Tính chính xác
-Chúng tôi kiểm tra kỹ lưỡng mọi thông tin trước khi xuất bản.
+## Kết nối với tôi
 
-### Tính khách quan
-Đưa ra phân tích cân bằng, không thiên vị về bất kỳ công ty hay công nghệ nào.
+Tôi rất mong được kết nối với những nhà đầu tư và nhà nghiên cứu quan tâm đến chiến lược giao dịch và tài chính định lượng.
 
-### Tính minh bạch
-Công khai về các mối quan hệ và lợi ích có thể ảnh hưởng đến nội dung.
+- **LinkedIn**: [linkedin.com/in/tamlefpa](https://linkedin.com/in/tamlefpa)
 
-### Tính giáo dục
-Giải thích các khái niệm phức tạp một cách dễ hiểu.
+Hãy liên hệ nếu bạn muốn:
+- Thảo luận về chiến lược đầu tư hoặc kết quả nghiên cứu
+- Chia sẻ tài nguyên hoặc bài báo thú vị
+- Trao đổi ý tưởng về các phương pháp định lượng
+- Kết nối với một người đam mê nghiên cứu
 
-## Liên hệ với chúng tôi
+## Học hỏi liên tục
 
-Chúng tôi luôn sẵn sàng lắng nghe ý kiến và đóng góp từ cộng đồng:
-
-- 📧 **Email**: contact@fintechinsights.com
-- 🐦 **Twitter**: @FinTechInsights
-- 💼 **LinkedIn**: FinTech Insights
-- 📺 **YouTube**: FinTech Insights Channel
-
-## Hợp tác
-
-Chúng tôi luôn tìm kiếm cơ hội hợp tác với:
-
-- **Chuyên gia ngành** muốn chia sẻ kiến thức
-- **Startup FinTech** có câu chuyện thú vị
-- **Tổ chức tài chính** muốn thảo luận về đổi mới
-- **Nhà nghiên cứu** có những phát hiện mới
+Tôi không ngừng học hỏi và phát triển hiểu biết của mình về thị trường và đầu tư. Các chiến lược và ý tưởng tôi viết có thể thay đổi khi tôi khám phá thông tin mới hoặc có những hiểu biết mới. Đó là một phần của hành trình, và tôi cố gắng minh bạch về quá trình đó.
 
 ---
 
-*Cảm ơn bạn đã quan tâm đến FinTech Insights. Hãy cùng chúng tôi khám phá tương lai của tài chính!* 🚀
+*Cảm ơn bạn đã đọc và là một phần của hành trình nghiên cứu này. Hãy cùng khám phá thế giới đầu tư và giao dịch hấp dẫn!*

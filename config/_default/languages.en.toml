@@ -4,22 +4,19 @@ languageDirection = "ltr"
 weight = 1
 
 title = "FinTech Insights"
-copyright = "&copy; 2024 FinTech Insights"
+copyright = "&copy; 2024 Tam Le"
 
 [params]
   dateFormat = "2 January 2006"
 
   mainSections = ["posts"]
-  description = "Exploring the latest trends, technologies, and insights in financial technology."
+  description = "Personal research notebook documenting investment strategies and trading approaches discovered through AI-assisted and manual research."
 
 [params.author]
-  name = "FinTech Insights Team"
+  name = "Tam Le"
   image = "img/author.jpg"
-  headline = "Your guide to financial technology!"
-  bio = "We are passionate about exploring the intersection of finance and technology, bringing you the latest insights, trends, and analysis in the FinTech world."
+  headline = "Investment Research & Trading Strategies"
+  bio = "Documenting my research journey exploring investment and trading approaches through AI-assisted discovery and manual research. Passionate about value investing, quantitative finance, and behavioral markets."
   links = [
-    { x-twitter = "https://twitter.com/" },
-    { facebook = "https://facebook.com/" },
-    { linkedin = "https://linkedin.com/" },
-    { youtube = "https://youtube.com/" },
+    { linkedin = "https://linkedin.com/in/tamlefpa" },
   ]

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a bilingual (English/Vietnamese) FinTech blog built with Hugo static site generator using the Congo theme v2. The blog is deployed on Netlify with automated continuous deployment.
+This is a bilingual (English/Vietnamese) personal research blog documenting investment and trading strategies. Built with Hugo static site generator using the Congo theme v2, the blog serves as a research notebook for interesting findings discovered through AI-assisted research (Perplexity) and manual exploration. Deployed on Netlify with automated continuous deployment.
 
 ## Essential Commands
 
@@ -234,6 +234,85 @@ Netlify serves all pages with security headers defined in `netlify.toml`:
 - X-Frame-Options, X-XSS-Protection, X-Content-Type-Options
 - Content-Security-Policy with strict rules
 - Referrer-Policy for privacy
+
+## Personal Branding & Contact Information
+
+### Where to Update Personal Information
+
+When you need to change personal details (name, bio, social media links, contact info), modify these files:
+
+**Author Information & Social Links:**
+1. **`config/_default/languages.en.toml`** - English author profile
+   ```toml
+   [params.author]
+     name = "Your Name"              # Display name
+     image = "img/author.jpg"        # Author photo
+     headline = "Your Headline"       # Tagline/subtitle
+     bio = "Your bio text..."        # Author bio
+     links = [
+       { linkedin = "https://linkedin.com/in/yourprofile" },
+       { x-twitter = "https://twitter.com/yourhandle" },  # Optional
+       { github = "https://github.com/yourhandle" },      # Optional
+     ]
+   ```
+
+2. **`config/_default/languages.vi.toml`** - Vietnamese author profile
+   - Same structure as English version
+   - Translate name, headline, and bio to Vietnamese
+
+**Contact Page:**
+3. **`content/contact.md`** - English contact information
+   - Update LinkedIn URL or other contact methods
+   - Modify professional inquiry instructions
+
+4. **`content/contact.vi.md`** - Vietnamese contact information
+   - Mirror changes from English version
+
+**About Page (Optional):**
+5. **`content/about.md`** - Personal background and story
+   - Update if you want to share more about yourself
+
+6. **`content/about.vi.md`** - Vietnamese about page
+   - Keep synchronized with English version
+
+**Copyright:**
+7. **`config/_default/languages.en.toml`** - Line with `copyright = "..."`
+8. **`config/_default/languages.vi.toml`** - Same copyright line
+
+### Quick Reference: Personal Info Files
+
+| What to Change | Files to Modify |
+|----------------|-----------------|
+| **Name** | `languages.en.toml`, `languages.vi.toml` |
+| **Bio/Headline** | `languages.en.toml`, `languages.vi.toml` |
+| **Social Links** | `languages.en.toml`, `languages.vi.toml` |
+| **Contact Info** | `contact.md`, `contact.vi.md` |
+| **Author Photo** | Place image in `static/img/author.jpg`, reference in `languages.*.toml` |
+| **Personal Story** | `about.md`, `about.vi.md` |
+| **Copyright** | `languages.en.toml`, `languages.vi.toml` |
+
+### Supported Social Media Links
+
+Congo theme supports these social media platforms in `[params.author.links]`:
+- `linkedin` - LinkedIn profile
+- `x-twitter` - Twitter/X account
+- `github` - GitHub profile
+- `facebook` - Facebook page
+- `instagram` - Instagram account
+- `youtube` - YouTube channel
+- `medium` - Medium profile
+- `reddit` - Reddit profile
+- `stackoverflow` - Stack Overflow profile
+- `email` - Email address (displays as mailto link)
+
+**Example with multiple platforms:**
+```toml
+links = [
+  { linkedin = "https://linkedin.com/in/yourprofile" },
+  { github = "https://github.com/yourhandle" },
+  { x-twitter = "https://twitter.com/yourhandle" },
+]
+```
 
 ## Important Notes
 

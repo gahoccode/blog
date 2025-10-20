@@ -1,104 +1,97 @@
 ---
-title: "About FinTech Insights"
+title: "About"
 date: 2024-07-19T11:45:00+07:00
 draft: false
-description: "Learn more about FinTech Insights and our mission to explore the intersection of finance and technology."
+description: "Learn about my investment research journey and why I created this blog."
 showDate: false
 showAuthor: false
 showReadingTime: false
 showEdit: false
 ---
 
-# About FinTech Insights
+# About This Blog
 
-Welcome to **FinTech Insights**, your comprehensive resource for understanding the rapidly evolving world of financial technology. We are dedicated to exploring the intersection of finance and technology, bringing you the latest trends, innovations, and analysis that shape the future of financial services.
+Welcome! I'm glad you're here. This blog is my personal research notebook where I document interesting findings and ideas about investing and trading strategies that I discover through ongoing research—both using AI tools like Perplexity and through manual exploration across the web.
 
-## Our Mission
+## Who I Am
 
-Our mission is to demystify financial technology and make it accessible to everyone—from industry professionals and investors to entrepreneurs and curious individuals who want to understand how technology is transforming finance.
+I'm a finance enthusiast passionate about discovering, understanding, and testing investment strategies. Rather than relying solely on conventional wisdom, I enjoy diving deep into various approaches—from value investing principles to quantitative methods—to see what works and why.
 
-We believe that financial technology has the power to:
-- Make financial services more accessible and inclusive
-- Improve efficiency and reduce costs
-- Enhance security and transparency
-- Create new opportunities for innovation and growth
+## Why I Created This Blog
 
-## What We Cover
+The investment and trading landscape is vast and constantly evolving. Through my research, I come across fascinating approaches, strategies, and ideas that deserve deeper exploration and documentation. This blog serves as:
 
-### 🏦 Digital Banking & Payments
-- Neobanks and challenger banks
-- Mobile and contactless payments
-- Cryptocurrency and digital currencies
-- Cross-border payment solutions
+- **A learning journal** - Documenting my research journey and what I discover
+- **A knowledge base** - Organizing interesting findings for future reference
+- **A sharing platform** - Making these discoveries accessible to others interested in investing and trading
 
-### 📊 Investment Technology
-- Robo-advisors and automated investing
-- Trading platforms and tools
-- Alternative investment platforms
-- Wealth management innovations
+## What You'll Find Here
 
-### 🤖 Emerging Technologies
-- Artificial Intelligence in finance
-- Blockchain applications
-- Open Banking and APIs
-- RegTech and compliance solutions
+My posts cover topics including:
 
-### 🔐 Security & Risk Management
-- Cybersecurity in financial services
-- Fraud detection and prevention
-- Identity verification and KYC
-- Risk assessment technologies
+- **Investment Strategies** - Value investing, growth investing, momentum, and hybrid approaches
+- **Trading Techniques** - Technical analysis, algorithmic concepts, options strategies
+- **Portfolio Management** - Asset allocation, diversification, rebalancing methods
+- **Quantitative Finance** - Backtesting approaches, statistical analysis, factor investing
+- **Research Tools** - Open-source investment tools, data sources, automation workflows
+- **Market Insights** - Behavioral finance, market patterns, emerging opportunities
 
-### 🌍 Market Analysis
-- Industry trends and predictions
-- Startup spotlights and funding news
-- Regulatory developments
-- Global fintech ecosystem insights
+## My Research Approach
 
-## Our Approach
+I use a combination of methods to discover and analyze investment approaches:
 
-We strive to provide:
+### AI-Assisted Research
+I leverage tools like **Perplexity AI** to:
+- Synthesize research from multiple sources
+- Find connections between different investment philosophies
+- Discover emerging trends in quantitative finance
+- Understand complex strategies more quickly
 
-- **In-depth Analysis**: Going beyond surface-level news to explore the implications and opportunities
-- **Practical Insights**: Actionable information for professionals and businesses
-- **Balanced Perspective**: Examining both opportunities and challenges in fintech
-- **Global Coverage**: Insights from fintech developments worldwide
-- **Accessible Content**: Making complex topics understandable for all audiences
+### Manual Exploration
+I also spend time:
+- Reading academic papers and books
+- Analyzing case studies of successful investors
+- Exploring open-source financial tools and libraries
+- Following discussions in investment communities
 
-## Who We Are
+### Critical Analysis
+Every strategy I document here goes through my filter of:
+- Does the logic make sense?
+- What are the underlying assumptions?
+- What are the risks and limitations?
+- How could this be tested or validated?
 
-The FinTech Insights team consists of experienced professionals from various backgrounds in finance, technology, and journalism. Our diverse perspectives allow us to provide comprehensive coverage of the fintech landscape.
+## What This Blog Is NOT
 
-Our team includes:
-- Former banking and financial services professionals
-- Technology experts and software developers
-- Investment analysts and venture capital specialists
-- Regulatory and compliance experts
-- Business journalists and content creators
+It's important to be clear about what this blog isn't:
 
-## Stay Connected
+- **Not financial advice** - Everything here is for educational and research purposes only
+- **Not a news site** - I'm not reporting on daily market movements or breaking news
+- **Not a recommendation service** - I don't tell anyone what to buy or sell
+- **Not a commercial operation** - No courses, newsletters, or paid services
 
-We're committed to building a community of fintech enthusiasts, professionals, and innovators. Here's how you can stay connected:
+## A Note on Research vs. Advice
 
-- **Subscribe** to our newsletter for weekly insights
-- **Follow us** on social media for daily updates
-- **Join the conversation** by commenting on our posts
-- **Share your insights** and experiences with our community
+Everything shared here is based on research and exploration—documenting what I find interesting and worth investigating further. I'm not a licensed financial advisor, and nothing on this blog should be considered personalized investment advice.
 
-## Contact Us
+Always do your own research, understand your own risk tolerance, and consult with qualified professionals before making any investment decisions.
 
-Have a story tip, partnership opportunity, or just want to say hello? We'd love to hear from you:
+## Connect With Me
 
-- **Email**: hello@fintechinsights.com
-- **Twitter**: @FinTechInsights
-- **LinkedIn**: FinTech Insights
+I'd love to connect with fellow investors and researchers interested in trading strategies and quantitative finance.
 
-## Disclaimer
+- **LinkedIn**: [linkedin.com/in/tamlefpa](https://linkedin.com/in/tamlefpa)
 
-The content on FinTech Insights is for informational purposes only and should not be considered as financial, investment, or legal advice. Always consult with qualified professionals before making financial decisions.
+Feel free to reach out if you want to:
+- Discuss investment strategies or research findings
+- Share interesting resources or papers
+- Exchange ideas about quantitative approaches
+- Connect with a fellow research enthusiast
 
-We strive for accuracy in all our content, but the fintech landscape changes rapidly. If you notice any errors or have updates to share, please don't hesitate to contact us.
+## Continuous Learning
+
+I'm constantly learning and evolving my understanding of markets and investing. The strategies and ideas I write about may change as I discover new information or gain new insights. That's part of the journey, and I try to be transparent about that process.
 
 ---
 
-*Thank you for being part of the FinTech Insights community. Together, we're exploring the future of finance.*
+*Thank you for reading and being part of this research journey. Let's explore the fascinating world of investing and trading together!*
