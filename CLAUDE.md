@@ -235,6 +235,91 @@ Netlify serves all pages with security headers defined in `netlify.toml`:
 - Content-Security-Policy with strict rules
 - Referrer-Policy for privacy
 
+## Visual Customization & Appearance
+
+### Color Scheme
+The blog uses the **"sapphire"** color scheme for a professional financial aesthetic:
+- Deep blue conveys trust, authority, and professionalism
+- Associated with the financial services industry
+- Excellent readability for long-form investment content
+- Works well with dark mode for evening reading
+
+**Available color schemes:** congo (default), avocado, cherry, fire, ocean, sapphire, slate
+
+**Configuration:** `config/_default/params.toml`
+```toml
+colorScheme = "sapphire"
+```
+
+### Homepage Layout
+Using **"profile"** layout to establish personal authority and expertise:
+- Showcases author bio and credentials prominently
+- Displays professional image and social links
+- Perfect for personal research blog emphasizing expertise
+- Shows recent posts below profile section
+
+**Available layouts:** page, profile, custom
+
+**Configuration:** `config/_default/params.toml`
+```toml
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 5
+```
+
+### List Page Appearance
+Enhanced list pages for better content discovery:
+- **Summaries enabled** - Readers see content preview before clicking
+- **Taxonomies displayed** - Tags and categories visible for topic navigation
+- **Group by year** - Posts organized chronologically in archives
+- **Breadcrumbs enabled** - Clear navigation hierarchy
+
+**Configuration:** `config/_default/params.toml`
+```toml
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = true
+  showTaxonomies = true
+  groupByYear = true
+  paginationWidth = 1
+```
+
+### Article Appearance
+Individual article display settings:
+- **Date & author** - Attribution and publication info
+- **Reading time** - Helps readers gauge time commitment
+- **Table of contents** - Quick navigation for long articles
+- **Taxonomies** - Tags and categories for related content discovery
+- **Heading anchors** - Deep linking to sections
+- **Social sharing** - LinkedIn, X/Twitter, Reddit, Email, Facebook, Threads, Pinterest
+
+**Configuration:** `config/_default/params.toml`
+```toml
+[article]
+  showDate = true
+  showAuthor = true
+  showBreadcrumbs = true
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = true
+  sharingLinks = ["linkedin", "x-twitter", "reddit", "email", "facebook", "threads", "pinterest"]
+```
+
+### Dark Mode
+Automatic dark mode switching based on system preferences:
+- Auto-detects user's OS theme preference
+- Manual toggle available in footer
+- Seamless transition between modes
+- Optimized for reading in any lighting condition
+
+**Configuration:** `config/_default/params.toml`
+```toml
+defaultAppearance = "light"
+autoSwitchAppearance = true
+```
+
 ## Personal Branding & Contact Information
 
 ### Where to Update Personal Information
@@ -364,3 +449,4 @@ When making changes, always document in CHANGELOG.md:
 - **Go**: 1.24.2 (for Hugo modules)
 - **Node**: 22 (for modern features)
 - **Congo Theme**: v2.12.2 (via Hugo modules)
+- details the update on parameters on toml files

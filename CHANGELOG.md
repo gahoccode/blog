@@ -5,6 +5,24 @@ All notable changes to the FinTech Insights blog project are documented in this 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.7] - 2025-10-20
+
+### Changed
+- 🔄 **Visual appearance configuration** - Updated `config/_default/params.toml` with 7 parameter changes
+
+**TOML Parameter Changes:**
+
+1. `colorScheme = "sapphire"` (was "congo") - Line 8
+2. `[homepage] layout = "profile"` (was "page") - Line 34
+3. `[article] showTaxonomies = true` (was false) - Line 52
+4. `[article] sharingLinks = ["linkedin", "x-twitter", "reddit", "email", "facebook", "threads", "pinterest"]` (was commented) - Line 55
+5. `[list] showSummary = true` (was false) - Line 59
+6. `[list] showTaxonomies = true` (was false) - Line 61
+7. `[list] groupByYear = true` (was false) - Line 62
+
+### Added
+- ✅ **Visual Customization & Appearance** section in CLAUDE.md documenting all appearance settings
+
 ## [1.0.6] - 2025-10-19
 
 ### Added
