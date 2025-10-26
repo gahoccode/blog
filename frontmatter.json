@@ -45,5 +45,6 @@
         }
       ]
     }
-  ]
+  ],
+  "frontMatter.preview.host": "http://localhost:1313"
 }
