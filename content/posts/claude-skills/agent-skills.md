@@ -2,9 +2,10 @@
 title: "Claude Skills: The Complete Guide"
 date: 2025-10-26
 draft: false
-description: "Claude Skills lets AI specialize, with procedural knowledge packaged into reusable capabilities. Agent skills load only when relevant. Efficient, composable, and portable."
+description: Claude Skills lets AI specialize, with procedural knowledge packaged into reusable capabilities.
 tags: []
-categories: ["Technology"]
+categories:
+    - Technology
 ---
 # Claude Skills: The Complete Guide
 
